@@ -237,6 +237,38 @@ class MyBuildData(build_data.BuildData):
             == [other.get_associated_data(i) for i in range(len(other))]
 
 
+class TestBisection(unittest.TestCase):
+    def setUp(self):
+
+
+    def test_search_mid_point(self):
+
+
+    def test__search_mid_point(self):
+
+
+    def test_init_handler(self, mid_point):
+
+
+    def test_download_build(self, mid_point):
+    
+
+    def test__download_build(self, mid_point, build_infos):
+    
+
+    def test__download_next_builds(self, mid_point):
+    
+
+    def test_evaluate(self, build_infos):
+    
+
+    def test_update_build_info(self, mid_point, app_info):
+        
+
+    def test_handle_verdict(self, mid_point, verdict):
+        
+
+
 class TestBisector(unittest.TestCase):
     def setUp(self):
         self.handler = MagicMock(find_fix=False)
